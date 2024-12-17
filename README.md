@@ -8,7 +8,19 @@ This project is a Spring Boot-based quiz application with API endpoints to manag
 - H2 Database (or another preferred database)
 
 ## Setup Instructions
+### Create a Spring Boot Project Using Spring Initializr
 
-1. Clone the repository:
+1. Go to [Spring Initializr](https://start.spring.io/).
+2. Choose the following configurations:
+   - **Project**: Maven Project
+   - **Language**: Java
+   - **Spring Boot**: 2.x or later
+   - **Group**: `com.example`
+   - **Artifact**: `quiz`
+   - **Dependencies**: Spring Web, Spring Data JPA, H2 Database
+3. Click **Generate** to download the project.
+4. Extract the downloaded zip file and open it in your IDE.
+
+ Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/quiz-app.git
+   git clone https://github.com/NitinSharma973/quiz-app.git
